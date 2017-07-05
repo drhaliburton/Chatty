@@ -1,7 +1,7 @@
 
 # Chatty
 
-Tweeter is a simple, single-page Twitter clone created in week 3 of the Lighthouse Labs Web Development Bootcamp. Users are able to view previously posted tweets and submit their own all from a one page interface.
+A real-time chat app that allow users to send and receive messages/notifications, change their username and view the number of online users. Built using React, Node, Webpack and Babel.
 
 ## Dependencies
 
@@ -13,6 +13,6 @@ Tweeter is a simple, single-page Twitter clone created in week 3 of the Lighthou
 
 ## Screenshots
 
-Tweeters homepage, displaying all previously posted tweets.
+Chatty is a one page, real-time chat app.
 
 ![image](http://i.imgur.com/qw137wM.png)
