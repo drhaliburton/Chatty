@@ -33,7 +33,6 @@ wss.on('connection', function connection(ws, req) {
  
   ws.on('message', function incoming(message) {
     const parsedMessage = JSON.parse(message);
-    console.log(parsedMessage.type);
 
     switch(parsedMessage.type) {
       case "postMessage":
@@ -55,6 +54,7 @@ wss.on('connection', function connection(ws, req) {
       };
       wss.broadcast(JSON.stringify(newNotification));
       break;
+      
       case "userCountChanged":
       const userCount = wss.clients.size;
       wss.broadCast(userCount);
